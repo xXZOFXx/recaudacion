@@ -1,0 +1,163 @@
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle at 94.02% 88.03%, #131d65, transparent 100%), radial-gradient(circle at 25.99% 27.79%, #2f69d2, transparent 100%), radial-gradient(circle at 50% 50%, #000, #000 100%);
+}
+
+.row {
+
+
+margin: 0px!important;
+
+}
+
+.col-md-2 {
+
+padding: 0px!important;
+
+}
+
+.completo {
+
+height: 100vh;
+
+}
+
+.col{
+
+padding: 0px;
+
+}
+
+
+/*efectos navbar*/
+.nav__cont {
+   position: absolute;
+    width: 20px;
+    top: 0;
+    height: 90vh;
+    z-index: 100;
+    background-color: #244ea3;;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    cursor: pointer;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, .4);
+}
+.nav__cont:hover {
+    width: 200px;
+}
+@media screen and (min-width: 600px) {
+    .nav__cont {
+        width: 40px;
+   }
+}
+.nav {
+    list-style-type: none;
+    color: white;
+}
+.nav:first-child {
+    padding-top: 1.5rem;
+}
+.nav__items {
+    padding-bottom: 4rem;
+    font-family: 'roboto';
+}
+.nav__items a {
+    position: relative;
+    display: block;
+   
+    padding-left: 25px;
+    padding-right: 15px;
+    transition: all 0.3s ease;
+    margin-left: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 1.35em;
+}
+.nav__items a:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+    background: radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: -10;
+}
+.nav__items:hover a:after {
+    opacity: 1;
+}
+.nav__items svg {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: -25px;
+    cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+    .nav__items svg {
+        width: 32px;
+        height: 32px;
+        left: -15px;
+   }
+}
+
+/*fin efecto navbar*/
+
+
+.welcome {
+
+color: white;
+text-align: center;
+
+color: white;
+     text-align: center; 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+
+.carta {
+
+
+padding-top: 15%;
+
+
+}
+
+
+.card {
+
+    position: relative;
+   
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff12;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255);
+    border-radius: 0.25rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.espacio{
+
+margin-top: 40px;
+
+}
